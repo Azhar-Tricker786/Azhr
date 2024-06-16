@@ -234,7 +234,7 @@ def pp():
 	clear()
 	print(' [•] wait checking approval...!')
 	try:
-			li = ['https://github.com/Azhar-Tricker786/File/tree/main']
+			li = ['https://github.com/Azhar-Tricker786/Trick/blob/main/Trick.txt']
 			li = ''.join(li)
 			ck = requests.get(f'{li}').text
 			if ky in ck:
